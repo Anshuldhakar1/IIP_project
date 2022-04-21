@@ -26,7 +26,7 @@ SECRET_KEY = '_8d+ag(d4-_kmwwd#jm+3lzrikw75$enauqe$p)d+ea9_$am)='
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://shy-jellyfish-77.loca.lt/"]
 
 
 # Application definition
