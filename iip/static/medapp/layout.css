@@ -52,6 +52,20 @@ header {
     margin-inline: 0.5rem;
 }
 
+#right > img {
+    /* DO rotate animation */
+    animation: rotate 10s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .grid_center {
     display: grid;
     place-items: center; 
