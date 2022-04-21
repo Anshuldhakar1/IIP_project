@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html{
+    font-family: 'Open-Sans', sans-serif;
+}
+
+header {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgb(53, 58, 64);
+    color: white;
+    height: 4rem;
+
+    padding: 0.25rem;
+    padding-inline: 2rem;
+
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+#logo_div > img {
+    height: auto;
+    width: 3rem;
+    margin-inline-end: 1rem;
+}
+
+#Title {
+    font-size: 1.15em;
+}
+
+#login_btn {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#login_btn > i {
+    margin-inline: 0.5rem;
+}
+
+.grid_center {
+    display: grid;
+    place-items: center; 
+}
+
+.barelink, .barelink:hover, .barelink:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.barelabel {
+    margin:0;
+}

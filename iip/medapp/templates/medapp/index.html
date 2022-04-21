@@ -1,0 +1,58 @@
+{% extends 'medapp/layout.html' %}
+{% load static %}
+
+{% block css_files %}
+<link href="{% static 'medapp/index.css' %}" rel="stylesheet">
+{% endblock css_files %}
+
+{% block body %}
+    <div id="content">
+        <div id="top">
+
+            <div id="left">
+
+                <div>
+                    <label id="l1" class="barelabel">
+                        MedAssist is
+                    </label>
+                    <label id="l2" class="barelabel">
+                        Digital Medical Assistant
+                    </label>
+                </div>
+
+                <div>
+                    <label id="l3" class="barelabel">
+                        It can Identify even Bigger Health Problems.
+                    </label>
+                    
+                    <div id="try_btn">
+                        <button type="button" class="btn btn-info">Try now</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="right">
+                <img src="{% static 'img/circle.png' %}" alt="circle">
+            </div>
+
+        </div>
+        <div id="bottom">
+
+            <div id="part1" class="grid_center">
+                <label class="barelabel">
+                    See How It Works
+                    <hr>
+                </label>
+            </div>
+
+            <div id="part2">
+
+                <div class="grid_center">
+                    
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+{% endblock %}

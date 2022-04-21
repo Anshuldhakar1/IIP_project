@@ -1,0 +1,42 @@
+#top {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+
+    padding: 4rem;
+}
+
+#l1, #l2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    height: fit-content;
+}
+
+#l2 {
+    color:rgb(43, 170, 199);
+}
+
+#l3 {
+    font-family: 'Open-sans';
+    font-weight: 500;
+    font-size: 1.25rem; 
+    margin-block: 2.5rem;
+}
+
+#right > img {
+    width: 40rem;
+}
+
+#part1 > label {
+    width: 100%;
+    color:rgb(43, 170, 199);
+    font-size: 3.5rem;
+    font-weight: 300;
+
+    width: fit-content;
+}
