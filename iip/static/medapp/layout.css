@@ -8,6 +8,17 @@ body {
     background-color: rgb(250, 250, 250);
 }
 
+footer {
+    background-color: rgb(53, 58, 64);
+    color: white;
+
+    padding: 1rem;
+}
+
+/* #contact_btn > button {
+    color: white;
+} */
+
 header {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
