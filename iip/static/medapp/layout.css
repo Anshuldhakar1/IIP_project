@@ -4,6 +4,10 @@ html{
     font-family: 'Open-Sans', sans-serif;
 }
 
+body {
+    background-color: rgb(250, 250, 250);
+}
+
 header {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
@@ -42,11 +46,17 @@ header {
     place-items: center; 
 }
 
-.barelink, .barelink:hover, .barelink:focus {
+.bare-link, .bare-link:hover, .bare-link:focus {
     text-decoration: none;
     color: inherit;
 }
 
-.barelabel {
+.bare-label {
     margin:0;
+}
+
+.bare-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }

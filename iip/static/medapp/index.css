@@ -32,6 +32,10 @@
     width: 40rem;
 }
 
+#bottom {
+    margin-block: 4rem;
+}
+
 #part1 > label {
     width: 100%;
     color:rgb(43, 170, 199);
@@ -39,4 +43,39 @@
     font-weight: 300;
 
     width: fit-content;
+}
+
+#steps-list {
+    display: flex;
+    flex-direction: row;
+}
+
+#steps-list > li {
+    margin-inline: 2rem;
+    width: 18rem;
+    height: 25rem;
+
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+#steps_card1 {
+    color: rgb(52, 121, 244);
+}
+
+#steps_card2 {
+    color: rgb(240, 68, 59);
+}
+
+#steps_card3 {
+    color: rgb(6, 145, 133);
+}
+
+.btm_txt {
+    margin-block: 1rem;
+    font-size: 1.15rem;
+}
+
+.steps-img {
+    width: 12rem;
 }
